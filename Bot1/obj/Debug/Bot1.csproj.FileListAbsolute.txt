@@ -7,3 +7,8 @@ E:\Documents\Visual Studio 2015\Projects\Sociopath\Sociopath\Bots\Bot1.dll
 E:\Documents\Visual Studio 2015\Projects\Sociopath\Sociopath\Bots\Bot1.pdb
 E:\Documents\Visual Studio 2015\Projects\Sociopath\Sociopath\bin\Debug\Bot1.dll
 E:\Documents\Visual Studio 2015\Projects\Sociopath\Sociopath\bin\Debug\Bot1.pdb
+E:\GitFolder\Sociopath\Sociopath\Sociopath\bin\Debug\Bot1.dll
+E:\GitFolder\Sociopath\Sociopath\Sociopath\bin\Debug\Bot1.pdb
+E:\GitFolder\Sociopath\Sociopath\Bot1\obj\Debug\Bot1.csprojResolveAssemblyReference.cache
+E:\GitFolder\Sociopath\Sociopath\Bot1\obj\Debug\Bot1.dll
+E:\GitFolder\Sociopath\Sociopath\Bot1\obj\Debug\Bot1.pdb

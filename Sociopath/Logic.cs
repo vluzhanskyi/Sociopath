@@ -20,8 +20,7 @@ namespace Sociopath
                 {
                     if (i.Name == "IBot")
                         ChosenTypes.Add(t);
-                }
-                
+                }                
             }
             return ChosenTypes;
         }

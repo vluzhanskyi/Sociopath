@@ -6,3 +6,5 @@ E:\GitFolder\Sociopath\Sociopath\Sociopath\bin\Debug\Inokentiy.dll
 E:\GitFolder\Sociopath\Sociopath\Sociopath\bin\Debug\Inokentiy.pdb
 E:\GitFolder\Sociopath\Sociopath\Inokentiy\obj\Debug\Inokentiy.dll
 E:\GitFolder\Sociopath\Sociopath\Inokentiy\obj\Debug\Inokentiy.pdb
+E:\GitFolder\Sociopath\Sociopath\Sociopath\bin\Debug\Bots\Inokentiy.dll
+E:\GitFolder\Sociopath\Sociopath\Sociopath\bin\Debug\Bots\Inokentiy.pdb

@@ -6,3 +6,5 @@ E:\GitFolder\Sociopath\Sociopath\Sociopath\bin\Debug\Bot2.dll
 E:\GitFolder\Sociopath\Sociopath\Sociopath\bin\Debug\Bot2.pdb
 E:\GitFolder\Sociopath\Sociopath\Bot2\obj\Debug\Bot2.dll
 E:\GitFolder\Sociopath\Sociopath\Bot2\obj\Debug\Bot2.pdb
+E:\GitFolder\Sociopath\Sociopath\Sociopath\bin\Debug\Bots\Bot2.dll
+E:\GitFolder\Sociopath\Sociopath\Sociopath\bin\Debug\Bots\Bot2.pdb

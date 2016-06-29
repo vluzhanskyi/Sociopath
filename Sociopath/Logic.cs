@@ -30,8 +30,7 @@ namespace Sociopath
             List<Assembly> allAssemblies = new List<Assembly>();
             List<Type> AllTypes = new List<Type>();
             string path = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-
-            foreach (string dll in Directory.GetFiles(path, "*.dll"))
+            foreach (string dll in Directory.GetFiles(path + "/Bots/", "*.dll"))
                 if (!dll.Contains("SDK"))
                     allAssemblies.Add(Assembly.LoadFile(dll));
             

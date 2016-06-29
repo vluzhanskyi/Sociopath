@@ -11,3 +11,5 @@ E:\GitFolder\Sociopath\Sociopath\Sociopath\bin\Debug\Bot1.dll
 E:\GitFolder\Sociopath\Sociopath\Sociopath\bin\Debug\Bot1.pdb
 E:\GitFolder\Sociopath\Sociopath\Bot1\obj\Debug\Bot1.dll
 E:\GitFolder\Sociopath\Sociopath\Bot1\obj\Debug\Bot1.pdb
+E:\GitFolder\Sociopath\Sociopath\Sociopath\bin\Debug\Bots\Bot1.dll
+E:\GitFolder\Sociopath\Sociopath\Sociopath\bin\Debug\Bots\Bot1.pdb

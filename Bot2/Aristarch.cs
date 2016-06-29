@@ -15,7 +15,7 @@ namespace Bot2
                 return "Your Highness, Ra ";
             if (message.Equals("Highness", StringComparison.InvariantCultureIgnoreCase))
                 return "How you can???";
-            else { return "You can easily call me 'Ra' :-) "; }
+            else { return "Hi, You can easily call me 'Ra' :-) "; }
         }
     }
 }

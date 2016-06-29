@@ -1,0 +1,4 @@
+E:\Documents\Visual Studio 2015\Projects\Sociopath\Sociopath\bin\Debug\Inokentiy.dll
+E:\Documents\Visual Studio 2015\Projects\Sociopath\Sociopath\bin\Debug\Inokentiy.pdb
+E:\Documents\Visual Studio 2015\Projects\Sociopath\Inokentiy\obj\Debug\Inokentiy.dll
+E:\Documents\Visual Studio 2015\Projects\Sociopath\Inokentiy\obj\Debug\Inokentiy.pdb

@@ -1,0 +1,9 @@
+E:\Documents\Visual Studio 2015\Projects\Sociopath\Bot1\bin\Debug\Bot1.dll
+E:\Documents\Visual Studio 2015\Projects\Sociopath\Bot1\bin\Debug\Bot1.pdb
+E:\Documents\Visual Studio 2015\Projects\Sociopath\Bot1\bin\Debug\BotSDK.dll
+E:\Documents\Visual Studio 2015\Projects\Sociopath\Bot1\obj\Debug\Bot1.dll
+E:\Documents\Visual Studio 2015\Projects\Sociopath\Bot1\obj\Debug\Bot1.pdb
+E:\Documents\Visual Studio 2015\Projects\Sociopath\Sociopath\Bots\Bot1.dll
+E:\Documents\Visual Studio 2015\Projects\Sociopath\Sociopath\Bots\Bot1.pdb
+E:\Documents\Visual Studio 2015\Projects\Sociopath\Sociopath\bin\Debug\Bot1.dll
+E:\Documents\Visual Studio 2015\Projects\Sociopath\Sociopath\bin\Debug\Bot1.pdb

@@ -80,7 +80,8 @@ namespace Sociopath
                         Name = t.GetProperty("Name");
                         answer[1] = Method.Invoke(obj, parameters);
                         answer[0] = Name.GetValue(obj);
-                        result.Add(string.Join(": ", answer));
+                        if (answer[1] != null)
+                            result.Add(string.Join(": ", answer));
                     }
                     catch (TargetException)
                     {

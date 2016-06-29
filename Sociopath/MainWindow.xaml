@@ -7,8 +7,17 @@
         mc:Ignorable="d"
         Title="Sociopath" Height="350" Width="532" SnapsToDevicePixels="True" ResizeMode="NoResize" ScrollViewer.VerticalScrollBarVisibility="Auto">
     <Grid>
-        <TextBox x:Name="MainTextBox" HorizontalAlignment="Left" Height="233" Margin="10,24,0,0" TextWrapping="WrapWithOverflow" Text="" VerticalAlignment="Top" Width="497" SnapsToDevicePixels="True" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" IsEnabled="False" TextChanged="MainTextBox_TextChanged" />
-        <TextBox x:Name="InputTextBox" HorizontalAlignment="Left" Height="36" Margin="10,267,0,0" TextWrapping="Wrap" Text= "" VerticalAlignment="Top" Width="420" TextChanged="InputTextBox_TextChanged"/>
+        <TextBox x:Name="MainTextBox" 
+                 ScrollViewer.HorizontalScrollBarVisibility="Auto" 
+                 ScrollViewer.VerticalScrollBarVisibility="Auto" 
+                 ScrollViewer.CanContentScroll="True"
+                 AcceptsReturn="True"
+                 ScrollViewer.PanningMode="VerticalFirst"
+                 
+                 HorizontalAlignment="Left" Height="242" TextWrapping="Wrap" Text="" VerticalAlignment="Top" 
+                 Width="497" SnapsToDevicePixels="True" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" 
+                 IsEnabled="True" TextChanged="MainTextBox_TextChanged" FontSize="20" Margin="10,10,0,0" IsReadOnly="True"/>
+        <TextBox x:Name="InputTextBox" HorizontalAlignment="Left" Height="36" Margin="10,267,0,0" TextWrapping="Wrap" Text= "" VerticalAlignment="Top" Width="420" TextChanged="InputTextBox_TextChanged" FontSize="21"/>
         <Button x:Name="SendButton" Content="Send!" HorizontalAlignment="Left" Margin="442,268,0,0" VerticalAlignment="Top" Width="65" RenderTransformOrigin="0.819,1.556" Height="36" Click="button_Click"/>
 
     </Grid>

@@ -47,6 +47,8 @@ namespace Sociopath
         private void MainTextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
             InputTextBox.Text = null;
+            
+            MainTextBox.ScrollToEnd();
         }
     }
 }

@@ -28,3 +28,17 @@ E:\GitFolder\Sociopath\Sociopath\Sociopath\obj\Debug\Sociopath.exe
 E:\GitFolder\Sociopath\Sociopath\Sociopath\obj\Debug\Sociopath.pdb
 E:\GitFolder\Sociopath\Sociopath\Sociopath\bin\Debug\BotSDK.dll
 E:\GitFolder\Sociopath\Sociopath\Sociopath\obj\Debug\Sociopath.csprojResolveAssemblyReference.cache
+D:\GitFolder\Sociopath\Sociopath\bin\Debug\Sociopath.exe.config
+D:\GitFolder\Sociopath\Sociopath\obj\Debug\Sociopath.exe
+D:\GitFolder\Sociopath\Sociopath\obj\Debug\Sociopath.pdb
+D:\GitFolder\Sociopath\Sociopath\bin\Debug\Sociopath.exe
+D:\GitFolder\Sociopath\Sociopath\bin\Debug\Sociopath.pdb
+D:\GitFolder\Sociopath\Sociopath\obj\Debug\MainWindow.g.cs
+D:\GitFolder\Sociopath\Sociopath\obj\Debug\App.g.cs
+D:\GitFolder\Sociopath\Sociopath\obj\Debug\Sociopath_MarkupCompile.cache
+D:\GitFolder\Sociopath\Sociopath\obj\Debug\Sociopath_MarkupCompile.lref
+D:\GitFolder\Sociopath\Sociopath\obj\Debug\MainWindow.baml
+D:\GitFolder\Sociopath\Sociopath\obj\Debug\Sociopath.g.resources
+D:\GitFolder\Sociopath\Sociopath\obj\Debug\Sociopath.Properties.Resources.resources
+D:\GitFolder\Sociopath\Sociopath\obj\Debug\Sociopath.csproj.GenerateResource.Cache
+D:\GitFolder\Sociopath\Sociopath\bin\Debug\BotSDK.dll

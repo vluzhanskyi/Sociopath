@@ -1,37 +1,34 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Reflection;
 using System.IO;
+using BotSDK;
 
 namespace Sociopath
 {
-       class logic
+       class Logic
     {
-        List<Type> GetTypesbyinterface(List<Type> AllTypes)
+        List<Type> GetTypesbyinterface(List<Type> allTypes)
         {
-            List<Type> ChosenTypes = new List<Type>();
+            List<Type> chosenTypes = new List<Type>();
             
-            foreach(Type t in AllTypes)
+            foreach(Type t in allTypes)
             {
                 foreach(Type i in t.GetInterfaces())
                 {
                     if (i.Name == "IBot")
-                        ChosenTypes.Add(t);
+                        chosenTypes.Add(t);
                 }                
             }
-            return ChosenTypes;
+            return chosenTypes;
         }
 
         List<Type> GetTypeOfAgent()
         {
             List<Assembly> allAssemblies = new List<Assembly>();
-            List<Type> AllTypes = new List<Type>();
+            List<Type> allTypes = new List<Type>();
             string path = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
             foreach (string dll in Directory.GetFiles(path + "/Bots/", "*.dll"))
-                if (!dll.Contains("SDK"))
                     allAssemblies.Add(Assembly.LoadFile(dll));
             
             if (allAssemblies.Capacity > 0)
@@ -41,44 +38,57 @@ namespace Sociopath
                         Type[] tempTypes = asm.GetTypes();
 
                     for (int i = 0; i < tempTypes.Length; i++)
-                        AllTypes.Add(tempTypes[i]);
+                        allTypes.Add(tempTypes[i]);
                 }
 
-                AllTypes = GetTypesbyinterface(AllTypes);
+                allTypes = GetTypesbyinterface(allTypes);
             }
 
-            return AllTypes;
+            return allTypes;
         }
 
-        List<object> RunAgents(List<Type> Types)
+        List<IBot> RunAgents(List<Type> types)
         {
-            List<object> Instances = new List<object>();
-            foreach (Type T in Types)
-                Instances.Add(Activator.CreateInstance(T)) ;
-            return Instances;
+            List<object> instances = new List<object>();
+            foreach (Type T in types)
+                instances.Add(Activator.CreateInstance(T)) ;
+            List<IBot> resultedBots = new List<IBot>();
+            foreach (var VARIABLE in instances)
+            {
+                resultedBots.Add((IBot)VARIABLE);
+            }
+            return resultedBots;
         }
 
       public List<string> RunInteraction(string message)
         {
             object[] answer = new object[2];
             List<string> result = new List<string>();
-            MethodInfo Method = null;
-            PropertyInfo Name = null;
+            MethodInfo method = null;
+            PropertyInfo name = null;
             object[] parameters = new object[1];
             parameters[0] = message;
             List<Type> types = GetTypeOfAgent();
-            List<object> instances = RunAgents(types);
-           
-            foreach (Type t in types)
+            List<IBot> instances = RunAgents(types);
+
+          foreach (var VARIABLE in instances)
+          {
+              answer[1] = VARIABLE.Answer(message);
+              answer[0] = VARIABLE.Name;
+              if (answer[1] != null)
+                  result.Add(string.Join(": ", answer));
+          }
+            
+ /*           foreach (Type t in types)
             {
                 foreach (object obj in instances)
                 {
                     try
                     {
-                        Method = t.GetMethod("Answer");
-                        Name = t.GetProperty("Name");
-                        answer[1] = Method.Invoke(obj, parameters);
-                        answer[0] = Name.GetValue(obj);
+                        method = t.GetMethod("Answer");
+                        name = t.GetProperty("Name");
+                        answer[1] = method.Invoke(obj, parameters);
+                        answer[0] = name.GetValue(obj);
                         if (answer[1] != null)
                             result.Add(string.Join(": ", answer));
                     }
@@ -89,7 +99,7 @@ namespace Sociopath
                 }
                
             }
-
+*/
             return result;
         }
 

@@ -51,7 +51,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BotSDK">
-      <HintPath>..\..\..\..\Documents\Visual Studio 2015\Projects\Sociopath\Sociopath\Dependencies\BotSDK.dll</HintPath>
+      <HintPath>Dependencies\BotSDK.dll</HintPath>
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />

@@ -32,6 +32,7 @@
   <ItemGroup>
     <Reference Include="BotSDK">
       <HintPath>..\Sociopath\Dependencies\BotSDK.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

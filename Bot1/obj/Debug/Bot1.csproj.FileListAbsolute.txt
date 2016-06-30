@@ -17,3 +17,8 @@ D:\GitFolder\Sociopath\Sociopath\bin\Debug\Bots\Bot1.dll
 D:\GitFolder\Sociopath\Sociopath\bin\Debug\Bots\Bot1.pdb
 D:\GitFolder\Sociopath\Bot1\obj\Debug\Bot1.dll
 D:\GitFolder\Sociopath\Bot1\obj\Debug\Bot1.pdb
+E:\GitFolder\Sociopath\Sociopath\bin\Debug\Bots\Bot1.dll
+E:\GitFolder\Sociopath\Sociopath\bin\Debug\Bots\Bot1.pdb
+E:\GitFolder\Sociopath\Bot1\obj\Debug\Bot1.csprojResolveAssemblyReference.cache
+E:\GitFolder\Sociopath\Bot1\obj\Debug\Bot1.dll
+E:\GitFolder\Sociopath\Bot1\obj\Debug\Bot1.pdb

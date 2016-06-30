@@ -12,3 +12,8 @@ D:\GitFolder\Sociopath\Sociopath\bin\Debug\Bots\Inokentiy.dll
 D:\GitFolder\Sociopath\Sociopath\bin\Debug\Bots\Inokentiy.pdb
 D:\GitFolder\Sociopath\Inokentiy\obj\Debug\Inokentiy.dll
 D:\GitFolder\Sociopath\Inokentiy\obj\Debug\Inokentiy.pdb
+E:\GitFolder\Sociopath\Sociopath\bin\Debug\Bots\Inokentiy.dll
+E:\GitFolder\Sociopath\Sociopath\bin\Debug\Bots\Inokentiy.pdb
+E:\GitFolder\Sociopath\Inokentiy\obj\Debug\Inokentiy.csprojResolveAssemblyReference.cache
+E:\GitFolder\Sociopath\Inokentiy\obj\Debug\Inokentiy.dll
+E:\GitFolder\Sociopath\Inokentiy\obj\Debug\Inokentiy.pdb

@@ -53,9 +53,9 @@ namespace Sociopath
             foreach (Type T in types)
                 instances.Add(Activator.CreateInstance(T)) ;
             List<IBot> resultedBots = new List<IBot>();
-            foreach (var VARIABLE in instances)
+            foreach (var bot in instances)
             {
-                resultedBots.Add((IBot)VARIABLE);
+                resultedBots.Add((IBot)bot);
             }
             return resultedBots;
         }
@@ -64,42 +64,19 @@ namespace Sociopath
         {
             object[] answer = new object[2];
             List<string> result = new List<string>();
-            MethodInfo method = null;
-            PropertyInfo name = null;
             object[] parameters = new object[1];
             parameters[0] = message;
             List<Type> types = GetTypeOfAgent();
             List<IBot> instances = RunAgents(types);
 
-          foreach (var VARIABLE in instances)
+          foreach (var bot in instances)
           {
-              answer[1] = VARIABLE.Answer(message);
-              answer[0] = VARIABLE.Name;
+              answer[1] = bot.Answer(message);
+              answer[0] = bot.Name;
               if (answer[1] != null)
                   result.Add(string.Join(": ", answer));
           }
-            
- /*           foreach (Type t in types)
-            {
-                foreach (object obj in instances)
-                {
-                    try
-                    {
-                        method = t.GetMethod("Answer");
-                        name = t.GetProperty("Name");
-                        answer[1] = method.Invoke(obj, parameters);
-                        answer[0] = name.GetValue(obj);
-                        if (answer[1] != null)
-                            result.Add(string.Join(": ", answer));
-                    }
-                    catch (TargetException)
-                    {
-
-                    }
-                }
-               
-            }
-*/
+          
             return result;
         }
 

@@ -16,7 +16,7 @@ namespace Sociopath
             {
                 foreach(Type i in t.GetInterfaces())
                 {
-                    if (i.Name == "IBot")
+                    if (i.Name.Equals("IBot", StringComparison.InvariantCultureIgnoreCase))
                         chosenTypes.Add(t);
                 }                
             }
@@ -31,7 +31,7 @@ namespace Sociopath
             foreach (string dll in Directory.GetFiles(path + "/Bots/", "*.dll"))
                     allAssemblies.Add(Assembly.LoadFile(dll));
             
-            if (allAssemblies.Capacity > 0)
+            if (allAssemblies.Count > 0)
             {
                 foreach (Assembly asm in allAssemblies)
                 {
